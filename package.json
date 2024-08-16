@@ -1,0 +1,17 @@
+{
+  "name": "stay_happy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run start:all",
+    "start:dotnet": "cd StayHappyWebApp && dotnet run",
+    "start:python": "cd StayHappyWebApp/Scripts/python && py main.py",
+    "start:all": "npx concurrently \"npm run start:dotnet\" \"npm run start:python\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}

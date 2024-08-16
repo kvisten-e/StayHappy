@@ -1,0 +1,52 @@
+
+/* Container for the skeleton loader and image */
+.image-container[b-4iluk90vs2] {
+  position: relative;
+  min-height: 400px;
+  width: 500px;
+  height: auto;
+  overflow: hidden;
+  border-radius: 40px;
+}
+
+/* Skeleton loader styles */
+.skeleton-loader[b-4iluk90vs2] {
+  position: absolute;
+  border-radius: 40px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ddd;
+  /* Light gray background */
+  animation: pulse-b-4iluk90vs2 1.5s infinite ease-in-out;
+  z-index: 1;
+}
+
+/* Pulse animation for the skeleton loader */
+@keyframes pulse-b-4iluk90vs2 {
+  0% {
+    background-color: #858585;
+  }
+
+  50% {
+    background-color: #d3d3d3;
+  }
+
+  100% {
+    background-color: #858585;
+  }
+}
+
+/* Hide the skeleton loader when the image has loaded */
+.image-container img[b-4iluk90vs2] {
+  display: block;
+  z-index: 2;
+  border-radius: 40px;
+  transition: border 0.5s ease;
+  border: 0px solid transparent;
+}
+
+#videoFrame[b-4iluk90vs2]{
+  width: 100%;
+}

@@ -1,0 +1,113 @@
+/* _content/StayHappyWebApp/Views/Home/Index.cshtml.rz.scp.css */
+
+/* Container for the skeleton loader and image */
+.image-container[b-4iluk90vs2] {
+  position: relative;
+  min-height: 400px;
+  width: 500px;
+  height: auto;
+  overflow: hidden;
+  border-radius: 40px;
+}
+
+/* Skeleton loader styles */
+.skeleton-loader[b-4iluk90vs2] {
+  position: absolute;
+  border-radius: 40px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ddd;
+  /* Light gray background */
+  animation: pulse-b-4iluk90vs2 1.5s infinite ease-in-out;
+  z-index: 1;
+}
+
+/* Pulse animation for the skeleton loader */
+@keyframes pulse-b-4iluk90vs2 {
+  0% {
+    background-color: #858585;
+  }
+
+  50% {
+    background-color: #d3d3d3;
+  }
+
+  100% {
+    background-color: #858585;
+  }
+}
+
+/* Hide the skeleton loader when the image has loaded */
+.image-container img[b-4iluk90vs2] {
+  display: block;
+  z-index: 2;
+  border-radius: 40px;
+  transition: border 0.5s ease;
+  border: 0px solid transparent;
+}
+
+#videoFrame[b-4iluk90vs2]{
+  width: 100%;
+}
+/* _content/StayHappyWebApp/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+main[b-9l1adih1w2]{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+a.navbar-brand[b-9l1adih1w2] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-9l1adih1w2] {
+  color: #0077cc;
+}
+
+.btn-primary[b-9l1adih1w2] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-9l1adih1w2], .nav-pills .show > .nav-link[b-9l1adih1w2] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-9l1adih1w2] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-9l1adih1w2] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-9l1adih1w2] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-9l1adih1w2] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-9l1adih1w2] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+
+.container[b-9l1adih1w2]{
+  margin-top: 20px;
+}
