@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StayHappyWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08fc74e48f42051895bb8d0bfb922f8abbc97e33")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+749acbdfcc3cb103e277d8571cb8537b57238f97")]
 [assembly: System.Reflection.AssemblyProductAttribute("StayHappyWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StayHappyWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
