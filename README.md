@@ -1,6 +1,6 @@
 # Stay Happy
 
-### Install Virtual Environment
+## Install Virtual Environment
 
 1. **Navigate to the Project Directory**:
     ```bash
@@ -26,3 +26,17 @@
     ```bash
     pip install -r requirements.txt
     ```
+
+
+## Usage
+
+1. **Start the Application**:
+   - Locate the `start_app.bat` file in the project directory.
+   - Double-click on the `.bat` file to start the application.
+
+2. **Access the Application**:
+   - Once the application is running, open your web browser and navigate to:
+     ```
+     http://localhost:5270
+     ```
+   - Replace `5270` with the appropriate port number if configured differently.

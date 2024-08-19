@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\kvist\\Skola\\AI\\djupinlaerning\\stay_happy\\StayHappyWebApp\\StayHappyWebApp.csproj": {}
+    "C:\\Users\\kvist\\Skola\\AI\\djupinlaerning\\stay_happy\\StayHappyWebApp\\StayHappyWebApp.csproj": {}
   },
   "projects": {
-    "c:\\Users\\kvist\\Skola\\AI\\djupinlaerning\\stay_happy\\StayHappyWebApp\\StayHappyWebApp.csproj": {
+    "C:\\Users\\kvist\\Skola\\AI\\djupinlaerning\\stay_happy\\StayHappyWebApp\\StayHappyWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\kvist\\Skola\\AI\\djupinlaerning\\stay_happy\\StayHappyWebApp\\StayHappyWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\kvist\\Skola\\AI\\djupinlaerning\\stay_happy\\StayHappyWebApp\\StayHappyWebApp.csproj",
         "projectName": "StayHappyWebApp",
-        "projectPath": "c:\\Users\\kvist\\Skola\\AI\\djupinlaerning\\stay_happy\\StayHappyWebApp\\StayHappyWebApp.csproj",
+        "projectPath": "C:\\Users\\kvist\\Skola\\AI\\djupinlaerning\\stay_happy\\StayHappyWebApp\\StayHappyWebApp.csproj",
         "packagesPath": "C:\\Users\\kvist\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\kvist\\Skola\\AI\\djupinlaerning\\stay_happy\\StayHappyWebApp\\obj\\",
+        "outputPath": "C:\\Users\\kvist\\Skola\\AI\\djupinlaerning\\stay_happy\\StayHappyWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kvist\\AppData\\Roaming\\NuGet\\NuGet.Config",
