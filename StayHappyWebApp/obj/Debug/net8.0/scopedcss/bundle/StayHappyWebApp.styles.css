@@ -51,6 +51,10 @@
 #videoFrame[b-4iluk90vs2]{
   width: 100%;
 }
+
+#emoji[b-4iluk90vs2]{
+  font-size: 100px;
+}
 /* _content/StayHappyWebApp/Views/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */

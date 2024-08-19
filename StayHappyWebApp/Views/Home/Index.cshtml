@@ -10,6 +10,7 @@
 </div>
 <h3>Current Emotion:</h3>
 <h1 id="emotionLabel"></h1>
+<h1 id="emoji"></h1>
 
 <script>
     async function fetchEmotionLabel() {
@@ -19,11 +20,40 @@
             document.getElementById('emotionLabel').innerText = data.label;
 
             const img = document.getElementById('videoFrame');
-            
+
+
             if (data.label === 'Happy') {
                 img.style.border = '20px solid #00ff00'; 
             } else {
                 img.style.border = '0px solid transparent';
+            }
+
+            switch(data.label)
+            {
+                case 'Happy':
+                    document.getElementById('emoji').innerText = "😁";
+                break;
+                case 'Angry':
+                    document.getElementById('emoji').innerText = "😠";
+                    break;
+                case 'Disgust':
+                    document.getElementById('emoji').innerText = "🤢";
+                    break;
+                case 'Fear':
+                    document.getElementById('emoji').innerText = "😨";
+                    break;
+                case 'Neutral':
+                    document.getElementById('emoji').innerText = "😐";
+                    break;
+                case 'Sad':
+                    document.getElementById('emoji').innerText = "😢";
+                    break;
+                case 'Surprise':
+                    document.getElementById('emoji').innerText = "😯";
+                    break;
+                default:
+                    document.getElementById('emoji').innerText = "";
+                break;
             }
 
         } catch (error) {

@@ -50,3 +50,7 @@
 #videoFrame{
   width: 100%;
 }
+
+#emoji{
+  font-size: 100px;
+}
