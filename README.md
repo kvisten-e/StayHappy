@@ -1,5 +1,9 @@
 # Stay Happy
 
+## Description 
+A web application for real-time facial expression recognition, utilizing a trained CNN model integrated via Flask in a C# environment. The application identifies and classifies facial expressions directly from the camera feed.
+
+
 ## Install Virtual Environment
 
 1. **Navigate to the Project Directory**:
